@@ -1,0 +1,10 @@
+[package]
+name = "jitcalc"
+version = "0.1.0"
+edition = "2021"
+
+[build]
+target = "x86_64-unknown-linux-gnux32"
+
+[dependencies]
+mmap-rs = "0.6.1"
